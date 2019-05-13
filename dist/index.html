@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PLANETS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+    <link rel="stylesheet" href="billboard.css">
+</head>
+<body>
+        <button type="button" class="btn btn-light btn-lg btn-block" id="title">Kepler space telescope charts</button>
+        <div id="nav">
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group" id="orbit">
+                  <button type="button" class="btn btn-info"><i class="far fa-calendar-alt" ></i> Orbital time</button>
+                </div>
+                <div class="btn-group" role="group" id="radius">
+                  <button type="button" class="btn btn-warning"><i class="far fa-circle" ></i> Radius</button>
+                </div>
+                <div class="btn-group" role="group"  id="temp">
+                  <button type="button" class="btn btn-danger"><i class="fas fa-fire"></i> Temperature</button>
+                </div>
+              </div>
+            </div>
+            <div id="main">
+                <div class="text-center">
+                      <h3>The scientific objective of the Kepler Mission was to explore the structure and diversity of planetary systems.</h3>
+                      <h3>9 years of mission, more than 3000 planets observed and analysed</h3>
+                </div>
+                  <div class="text-center">
+                  <img src="kepler.jpg" class="rounded mx-auto d-block" alt="kepler_main">
+                  <img src="kepler2.jpg" class="rounded mx-auto d-block" alt="kepler_main">
+                  <img src="kepler3.jpg" class="rounded mx-auto d-block" alt="kepler_main">
+                  <div class="btnbtn">
+                  <button type="button" id="btnlets" class="btn btn-white bg-dark btn-lg"><i class="fas fa-chart-bar"></i> Let's see charts</button>
+                </div>
+                </div>
+                </div>
+<canvas id="chart_orbit" width="1400" height="690"></canvas>
+<canvas id="chart_radius" width="1400" height="690"></canvas>
+<canvas id="chart_temp" width="1400" height="690"></canvas>
+</body>
+<script src = "bundle.js"></script>
+</html>
+<style>
+:root {
+    background-color:black;
+    font-family : Helvetica, Calibri, Arial;
+    font-size:100px;
+
+} 
+
+body{
+  background-color: black;
+}
+#btnlets{
+  display:block;
+  margin-top : 50px;
+  color:black;
+}
+.btnbtn{
+  margin-left : 45%;
+  margin-right : 45%;
+}
+.text-center{
+  background-color:black;
+  color:white;
+  padding-top : 25px;
+  padding-bottom : 25px;
+}
+img{
+  width: 20%;
+  height : 20%;
+  position: relative;
+}
+.abc{
+  height:325px;
+}
+.nav button{
+    height : 50px;
+}
+.footer{
+    color:white;
+    background-color:black;
+}
+#title{
+    font-size : 150%;
+    background-color:black;
+    color:white;
+}
+#chart_orbit{
+     background-color: #75beda;
+
+}
+#chart{
+  background-color:#75beda;
+}
+#chart_radius{
+     background-color: #e6ae60;
+}
+#chart_temp{
+     background-color: #c95c54;
+}
+</style>

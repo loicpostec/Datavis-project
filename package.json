@@ -1,0 +1,32 @@
+{
+  "name": "datavis-loicpostec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preview": "live-server dist/",
+    "build": "webpack",
+    "watch": "webpack --mode=development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "billboard.js": "^1.8.0",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
+    "d3": "^5.9.2",
+    "jquery": "^3.3.1",
+    "node-fetch": "^2.5.0",
+    "ramda": "^0.26.1",
+    "underscore": "^1.9.1"
+  }
+}
