@@ -2,27 +2,27 @@ Original data set
 ======
 https://data.world/markmarkoh/kepler-confirmed-planets 
 
-DATA SET DOCUMENTATION :
+Data set documentation :
 ======
 https://data.world/markmarkoh/kepler-confirmed-planets/workspace/data-dictionary
 
-DATA SET TITLE & DESCRIPTION :
+Data set title & description :
 ======
 Kepler Confirmed Planets
 A dataset for the ~3,373 confirmed planets discovered by the Kepler Telescope
 
-USED ROWS :
+Used rows :
 ======
 - pl_orbper: Orbital Period [days]
 - pl_radj: Planet Radius [Jupiter_radius]
 - st_teff: Effective Temperature [K]
 
-DATA TRANSFORMATION :
+Data transformation :
 ======
 - CVS TO JSON THANKS TO ONLINE CONVERTER
 - JSON MAPPING WITH A FORMAT
 
-MES CHOIX :
+Mes choix :
 ======
 J'ai choisi de représenter l'orbite, le rayon ainsi que la température des planettes analysées par Kepler.
 Sous forme de 3 phrases distincs, le but étant d'avoir la réprenstation la plus graphique possible. 
