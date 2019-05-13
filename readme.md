@@ -1,21 +1,21 @@
-**ORIGINAL DATA SET :**
-https://data.world/markmarkoh/kepler-confirmed-planets 
+#**ORIGINAL DATA SET :**
+##https://data.world/markmarkoh/kepler-confirmed-planets 
 
-**DATA SET DOCUMENTATION :**
-https://data.world/markmarkoh/kepler-confirmed-planets/workspace/data-dictionary
+#**DATA SET DOCUMENTATION :**
+##https://data.world/markmarkoh/kepler-confirmed-planets/workspace/data-dictionary
 
-**DATA SET TITLE & DESCRIPTION :**
-Kepler Confirmed Planets
-A dataset for the ~3,373 confirmed planets discovered by the Kepler Telescope
+#**DATA SET TITLE & DESCRIPTION :**
+##Kepler Confirmed Planets
+###A dataset for the ~3,373 confirmed planets discovered by the Kepler Telescope
 
-**USED ROWS :**
-pl_orbper: Orbital Period [days]
-pl_radj: Planet Radius [Jupiter_radius]
-st_teff: Effective Temperature [K]
+#**USED ROWS :**
+##pl_orbper: Orbital Period [days]
+##pl_radj: Planet Radius [Jupiter_radius]
+##st_teff: Effective Temperature [K]
 
 **DATA TRANSFORMATION :**
-CVS TO JSON THANKS TO ONLINE CONVERTER
-JSON MAPPING WITH A FORMAT
+##CVS TO JSON THANKS TO ONLINE CONVERTER
+##JSON MAPPING WITH A FORMAT
 ________________________________________________________________________________________________________________________
 **MES CHOIX**
 J'ai choisi de représenter l'orbite, le rayon ainsi que la température des planettes analysées par Kepler.
