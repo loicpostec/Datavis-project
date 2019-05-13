@@ -21,7 +21,7 @@ DATA TRANSFORMATION :
 ======
 CVS TO JSON THANKS TO ONLINE CONVERTER
 JSON MAPPING WITH A FORMAT
-________________________________________________________________________________________________________________________
+
 MES CHOIX :
 ======
 J'ai choisi de représenter l'orbite, le rayon ainsi que la température des planettes analysées par Kepler.
