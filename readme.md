@@ -18,11 +18,7 @@ DATA TRANSFORMATION :
 CVS TO JSON THANKS TO ONLINE CONVERTER
 JSON MAPPING WITH A FORMAT
 ________________________________________________________________________________________________________________________
-CHOICES : 
-3 CHARTS : 
-    – orbit time in days
-    – radius 
-    – temperature
-
-I want to show the diversity of planet system and their characteristic.
-
+J'ai choisi de représenter l'orbite, le rayon ainsi que la température des planettes analysées par Kepler.
+Sous forme de 3 phrases distincs, le but étant d'avoir la réprenstation la plus graphique possible. 
+Dû à différents problèmes avec les données je n'ai pas réussi à faire mieux. 
+Ces graphiques s'adresse à ceux qui s'intéresse à l'espace et à ses planètes ainsi qu'aux missions de la NASA.
