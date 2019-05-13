@@ -85,7 +85,7 @@ var chart_orbit = new Chart(ctxOrbit, {
           data: dataOrbit,
           borderColor: ("#000000"),
           pointBorderColor: ("#000000"),
-          pointRadius : 1,
+          pointRadius : 5,
       }]
   },
   options: {
@@ -125,7 +125,7 @@ var chart_radius = new Chart(ctxRadius, {
           data: dataRadius,
           borderColor: ("#000000"),
           pointBorderColor: ("#000000"),
-          pointRadius : 1,
+          pointRadius : 5,
       }]
   },
   options: {
@@ -161,7 +161,7 @@ var chart_temp = new Chart(ctxTemp, {
           data: dataTemp,
           borderColor: ("#000000"),
           pointBorderColor: ("#000000"),
-          pointRadius : 1,
+          pointRadius : 5,
       }]
   },
   options: {
