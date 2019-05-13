@@ -1,9 +1,3 @@
-git remote add origin git@github.com:loicpostec/Datavis-project.git
-git push -u origin master
-
-
---
-
 _____________________________
 ORIGINAL DATA SET :
 https://data.world/markmarkoh/kepler-confirmed-planets 
@@ -23,11 +17,12 @@ ______________________________
 DATA TRANSFORMATION :
 CVS TO JSON THANKS TO ONLINE CONVERTER
 JSON MAPPING WITH A FORMAT
-______________________________
+________________________________________________________________________________________________________________________
 CHOICES : 
 3 CHARTS : 
     – orbit time in days
     – radius 
     – temperature
 
-I want to show the diversity of planet system and their      
+I want to show the diversity of planet system and their characteristic.
+
